@@ -25,5 +25,8 @@
     "json-beautify": "^1.0.1",
     "json-schema-ref-parser": "^5.1.2",
     "json-schema-ref-parser-sync": "^1.0.0"
+  },
+  "bin": {
+    "swagger-compiler": "index.js"
   }
 }
