@@ -1,0 +1,14 @@
+title: Update
+type: object
+required:
+- username
+- role
+properties:
+  username:
+    type: string
+  role:
+    type: string
+    enum:
+      - system
+      - teacher
+      - parent

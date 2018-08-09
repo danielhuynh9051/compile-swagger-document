@@ -1,0 +1,29 @@
+{
+  "name": "swagger-compiler",
+  "version": "1.0.0",
+  "description": "Compile Swagger document from Yaml",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielhuynh9051/compile-swagger-document.git"
+  },
+  "keywords": [
+    "compiler",
+    "swagger",
+    "document"
+  ],
+  "author": "Daniel <sir.truonghuynh@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielhuynh9051/compile-swagger-document/issues"
+  },
+  "homepage": "https://github.com/danielhuynh9051/compile-swagger-document#readme",
+  "dependencies": {
+    "json-beautify": "^1.0.1",
+    "json-schema-ref-parser": "^5.1.2",
+    "json-schema-ref-parser-sync": "^1.0.0"
+  }
+}

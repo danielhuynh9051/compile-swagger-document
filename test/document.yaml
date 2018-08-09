@@ -1,0 +1,27 @@
+/pcbs-user/{id}:
+  put:
+    tags:
+    - PCBS User
+    summary: Update a specific PCBS User by ID
+    consumes:
+    - application/json
+    produces:
+    - application/json
+    parameters:
+    - in: path
+      name: id
+      description: The PCBS User ID
+      required: true
+      type: string
+    - in: body
+      name: body
+      required: true
+      schema:
+        $ref: "./Update.yaml"
+    responses:
+      406:
+        description: Not acceptable
+      400:
+        description: Invalid input
+      200:
+        description: This PCBS User was updated
