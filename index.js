@@ -62,6 +62,7 @@ function compile() {
         if (content) {
             if (content.paths) content.paths = convertPaths(content);
             fs.writeFileSync(params[1].path, format ? beautify(content, null, 2, 100) : JSON.stringify(content));
+            console.log(params[1]);
         } else {
             throw new Error('Cannot parse this file!');
         }
